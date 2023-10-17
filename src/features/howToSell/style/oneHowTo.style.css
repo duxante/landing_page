@@ -1,0 +1,12 @@
+.oneHowToHolder{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.oneHowToHolder img{
+    max-width: 80px;
+    width: 100%;
+}
