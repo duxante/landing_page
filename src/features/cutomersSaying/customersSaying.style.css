@@ -1,0 +1,38 @@
+.customerSayingHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.customerSayingMiddle{
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customerSayingUpper{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.customerSayingUpper p{
+    color: grey!important;
+    font-size: large!important;
+}
+
+.customerSayingBottom{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

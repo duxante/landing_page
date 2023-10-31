@@ -1,0 +1,38 @@
+.companiesOurServicesHolder {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.companiesOurServicesMiddle{
+    margin: 0px auto;
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 150px 0px;
+}
+
+.companiesOurServicesLeft{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.trust{
+    color: grey!important;
+    font-size: large!important;
+    margin-top: 0px;
+}
+
+.companiesOurServicesRight{
+    max-width: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150px;
+    justify-items: center;
+}

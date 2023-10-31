@@ -1,4 +1,9 @@
 .howToSellHolder{
+    width: 100%;
+     padding-bottom: 40px;
+}
+
+.howToSellMiddle{
     max-width: 1400px;
     width: 100%;
     display: flex;
@@ -16,8 +21,8 @@
 }
 
 .howtoSellLeftSide p{
-    color: grey;
-    font-size: large;
+    color: grey!important;
+    font-size: large!important;
 }
 
 .description{

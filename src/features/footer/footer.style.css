@@ -1,0 +1,30 @@
+.footerHolder{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.footerHolder p{
+    color: grey;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.footerMiddle{
+    margin: 0px auto;
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.socialMediaFooter{
+    display: flex;
+    max-width: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    filter: invert(0.5);
+}
+

@@ -34,29 +34,31 @@ const sellData = [
 const HowToSell = () => {
   return (
     <div className="howToSellHolder">
-      <div className="howtoSellLeftSide">
-        <p>SUCCESS</p>
-        <h1>HOW WE HELP YOU TO SELL YOUR PRODUCT</h1>
-        <HorizontalRuleIcon
-          sx={{
-            fontSize: '60px',
-            color: '#d2b356',
-          }}
-        />
-        <p className="description">
-          We empower your product sales through targeted marketing strategies
-          and data-driven insights. Our team crafts compelling campaigns that
-          resonate with your audience, driving increased visibility and
-          conversions. With our expertise, you'll achieve your sales goals and
-          reach a wider customer base.
-        </p>
-      </div>
-      <div className="howToSellRightSide">
-        {sellData.map((data) => {
-          return (
-            <OneHowTo img={data.img} title={data.title} text={data.text} />
-          );
-        })}
+      <div className="howToSellMiddle">
+        <div className="howtoSellLeftSide">
+          <p>SUCCESS</p>
+          <h1>HOW WE HELP YOU TO SELL YOUR PRODUCT</h1>
+          <HorizontalRuleIcon
+            sx={{
+              fontSize: '60px',
+              color: '#d2b356',
+            }}
+          />
+          <p className="description">
+            We empower your product sales through targeted marketing strategies
+            and data-driven insights. Our team crafts compelling campaigns that
+            resonate with your audience, driving increased visibility and
+            conversions. With our expertise, you'll achieve your sales goals and
+            reach a wider customer base.
+          </p>
+        </div>
+        <div className="howToSellRightSide">
+          {sellData.map((data) => {
+            return (
+              <OneHowTo img={data.img} title={data.title} text={data.text} />
+            );
+          })}
+        </div>
       </div>
     </div>
   );

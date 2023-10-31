@@ -1,0 +1,19 @@
+.oneCompany{
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oneCompany img{
+    max-width: 100px;
+    width: 100%;
+    filter: grayscale(1);
+}
+
+.oneCompany img:hover{
+    filter: grayscale(0);
+    background-color: #D2B356;
+    border-radius: 50%;
+    cursor: pointer;
+}
