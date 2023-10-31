@@ -6,7 +6,7 @@
 .rightPackageMiddle{
     margin: 50px auto;
     max-width: 1400px;
-    width: 100%;
+    width: 95%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -37,3 +37,11 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 860px){
+    .rightPackageBottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+}

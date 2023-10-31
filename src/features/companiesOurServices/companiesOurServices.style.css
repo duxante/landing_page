@@ -6,10 +6,11 @@
 .companiesOurServicesMiddle{
     margin: 0px auto;
     max-width: 1400px;
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 10px;
     padding: 150px 0px;
 }
 
@@ -35,4 +36,17 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 150px;
     justify-items: center;
+}
+
+@media screen and (max-width: 950px){
+    .companiesOurServicesMiddle{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .companiesOurServicesLeft{
+        max-width: 600px;
+        width: 100%;
+    }
 }

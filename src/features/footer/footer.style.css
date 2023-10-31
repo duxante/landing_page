@@ -12,7 +12,7 @@
 .footerMiddle{
     margin: 0px auto;
     max-width: 1400px;
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,3 +28,12 @@
     filter: invert(0.5);
 }
 
+@media screen and (max-width: 600px){
+    .footerMiddle{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 25px auto;
+        padding-top: 0;
+    }
+}

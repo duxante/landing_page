@@ -5,7 +5,7 @@
 
 .howToSellMiddle{
     max-width: 1400px;
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -42,4 +42,29 @@
     align-content: center;
     justify-content: center;
     gap: 30px;
+}
+
+@media screen and (max-width: 1350px) {
+    .howToSellMiddle{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .howtoSellLeftSide{
+        max-width: 600px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .howToSellRightSide{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .oneHowToHolder{
+        max-width: 600px;
+        width: 95%;
+    }
 }

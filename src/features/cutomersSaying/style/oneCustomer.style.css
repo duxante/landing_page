@@ -1,5 +1,5 @@
 .oneCustomerHolder{
-    max-width: 400px;
+    max-width: 600px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -24,4 +24,22 @@
     color: black!important;
     font-weight: 600!important;
     font-size: 15px!important;
+}
+
+@media screen and (max-width: 950px) {
+    .customerSayingBottom{
+        max-width: 600px;
+        width: 95%;
+    }
+    .oneCustomerHolder img{
+        max-width: 150px;
+        width: 100%;
+    }
+    .customerReview{
+        max-width: 600px;
+        width: 100%;
+    }
+    .reviewerName{
+        margin-top: 0;
+    }
 }

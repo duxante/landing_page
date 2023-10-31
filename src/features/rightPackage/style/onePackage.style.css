@@ -87,3 +87,13 @@ hr {
     margin-bottom: 100px;
 }
 
+@media screen and (max-width: 860px){
+    .onePackageHolder{
+        max-width: 600px;
+        width: 95%;
+    }
+    .packagePrice{
+        width: 100%;
+    }
+}
+

@@ -6,10 +6,11 @@
 
 .focusMattersMiddle{
     max-width: 1400px;
-    width: 100%;
+    width: 95%;
     margin: 0px auto;
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
     align-items: baseline;
 }
 
@@ -66,4 +67,28 @@
 
 .firstP{
     color: grey;
+}
+
+@media screen and (max-width: 1300px) {
+    .focusMattersMiddle{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .focusMattersLeftSide{
+        max-width: 600px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .textAndAfro{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .believingText{
+        max-width: 600px;
+        width: 95%;
+    }
 }
