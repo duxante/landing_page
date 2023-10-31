@@ -1,6 +1,6 @@
 {
   "name": "marketing_landing",
-  "homePage":"https://duxante.github.io/landing_page",
+  "homepage":"https://duxante.github.io/landing_page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
