@@ -67,7 +67,7 @@ const NavigationView = () => {
               textDecoration: 'none',
             }}
           >
-            NAMARI
+            MANDO
           </Typography>
 
           <Box
@@ -128,7 +128,7 @@ const NavigationView = () => {
               textDecoration: 'none',
             }}
           >
-            NAMARI
+            MANDO
           </Typography>
           <Box
             sx={{
