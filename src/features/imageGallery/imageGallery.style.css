@@ -18,6 +18,9 @@
 @media screen and (max-width: 600px) {
  .imageGalleryHolder{
     padding: 0px;
+ }
+ .imageGalleryHolder{
+    border-bottom: 3px solid #D2B356;
  }   
 }
 
