@@ -68,3 +68,12 @@
         width: 95%;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .howToSellMiddle{
+        gap: 20px;
+    }
+    .howToSellRightSide{
+        gap: 0px;
+    }
+}

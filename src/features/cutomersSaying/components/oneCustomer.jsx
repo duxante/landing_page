@@ -13,6 +13,7 @@ const OneCustomer = ({ img, text, customerName }) => {
         }}
       />
       <p className="reviewerName">{customerName}</p>
+      <hr className="reviewerBottomLine" />
     </div>
   );
 };

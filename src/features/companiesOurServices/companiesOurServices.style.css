@@ -50,3 +50,12 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .companiesOurServicesMiddle{
+        padding: 0px;
+    }
+    .companiesOurServicesRight{
+        gap: 40px;
+    }
+}

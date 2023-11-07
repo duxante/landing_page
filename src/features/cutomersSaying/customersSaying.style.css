@@ -49,3 +49,18 @@
         gap: 50px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .customerSayingMiddle{
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .customerSayingUpper{
+        margin-bottom: 0px;
+    }
+    .customerSayingBottom{
+        gap: 20px;
+    }
+}

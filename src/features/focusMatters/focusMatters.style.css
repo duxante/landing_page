@@ -92,3 +92,10 @@
         width: 95%;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .focusMattersHolder{
+        padding: 10px 0px;
+        margin: 0px;
+    }
+}
