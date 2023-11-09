@@ -26,7 +26,7 @@ import wave from './wave.png';
 import yinyang from './yinyang.png';
 
 const Heart = () => {
-  return <img src={heart} alt="heart" />;
+  return <img className="heart" src={heart} alt="heart" />;
 };
 
 const Facebook = () => {

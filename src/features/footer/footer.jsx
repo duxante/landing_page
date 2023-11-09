@@ -1,24 +1,17 @@
-import {
-  Facebook,
-  Google,
-  Instagram,
-  Twitter,
-  YouTube,
-} from '@mui/icons-material';
+import { madeBy, socialNetworkIcons } from '../../data/footerData';
+import OneNetWorkIcon from './components/oneNetWorkIcon';
 import './footer.style.css';
 
 const Footer = () => {
   return (
     <div className="footerHolder">
       <div className="footerMiddle">
-        <p>Made in hope for better times</p>
-        <p>@copyright Duxante</p>
+        <p>{madeBy.title}</p>
+        <p>{madeBy.copyright}</p>
         <div className="socialMediaFooter">
-          <Facebook />
-          <Google />
-          <Twitter />
-          <Instagram />
-          <YouTube />
+          {socialNetworkIcons.map((icon) => {
+            return <OneNetWorkIcon img={icon.img} />;
+          })}
         </div>
       </div>
     </div>

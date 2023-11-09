@@ -1,33 +1,21 @@
-import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
-import heart from '../../assets/heart.png';
-import './homeView.style.css';
+import HorizontalLine from '../../components/horizontalLine/horizontalLine';
 import Button from '../../components/button/button';
+import { home } from '../../data/home';
+import { Heart } from '../../assets';
+import './homeView.style.css';
 
 const HomeView = () => {
   return (
     <div className="homeViewHolder">
       <div className="homeViewMiddle">
         <div className="leftSide">
-          <HorizontalRuleIcon
-            sx={{
-              fontSize: '60px',
-              color: '#d2b356',
-            }}
-          />
-          <h1>A free and simple landing page</h1>
-          <HorizontalRuleIcon
-            sx={{
-              fontSize: '60px',
-              color: '#d2b356',
-            }}
-          />
-          <p>
-            Namari is a free landing page you can use for your projects. It is
-            free to use for your personal and commercial projects, enjoy!
-          </p>
-          <Button buttonText="Start creating today" />
+          <HorizontalLine />
+          <h1>{home.title}</h1>
+          <HorizontalLine />
+          <p>{home.description}</p>
+          <Button buttonText={home.buttonText} />
         </div>
-        <img className="heart" src={heart} alt="heart" />
+        <Heart />
       </div>
     </div>
   );
